@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="@dimen/_20sdp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/article_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/article_image"
+                android:textSize="17sp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="DDDDDDDDDDDDDDDDDDDDDDDDDDD"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"/>
+
+            <TextView
+                android:id="@+id/article_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_title"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/article_image"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/published_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_description"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/article_image"
+                android:textSize="10sp"
+                android:textColor="#F80505"
+                android:textStyle="bold|italic"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/source_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F40404"
+            android:padding="2dp"
+            android:text="AAAAAAAA"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
+

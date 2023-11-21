@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MVVMNEWS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+<!--         <item name="android:statusBarColor">#000</item>-->
+<!--         <item name="android:statusBarColor">#000</item>-->
+    </style>
+
+
+</resources>
